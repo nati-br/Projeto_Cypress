@@ -1,0 +1,27 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cypress cache & screenshots
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Relatórios (caso use mochawesome, allure, etc.)
+mochawesome-report/
+allure-results/
+allure-report/
+reports/
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+
+# Logs do Cypress
+cypress/logs/
+
+# Arquivos gerados automaticamente
+package-lock.json
+Projeto-cypress/
