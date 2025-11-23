@@ -1,4 +1,7 @@
 /// <reference types="cypress" />
+
+
+
 export default{
    clicaCadastrar(){
     cy.get('#btnRegister').click()
@@ -20,7 +23,22 @@ export default{
     cy.get('.errorLabel')
     .should('be.visible')
     .and('have.text', mensagem)
-    }
+    },
 
+    validarMensagemSucesso(mensagem, nome) {
+    cy.get('.swal2-title')
+    .should('be.visible')
+    .and('have.text', mensagem)
+    },
+
+    validarMensagemSucesso2(nome){
+    cy.get('#swal2-html-container')
+    .should('be.visible')
+    .should('have.text', `Bem-vindo ${nome}` )
+    },
+
+    clicarOk(){
+        cy.contains('button', 'OK').click()
+    }
 
 }
