@@ -10,10 +10,16 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
-    "cypress": "^15.7.0"
-  },
   "devDependencies": {
-    "@faker-js/faker": "^10.1.0"
-  }
+    "@faker-js/faker": "^10.1.0",
+    "cypress": "^15.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nati-br/Projeto_Cypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nati-br/Projeto_Cypress/issues"
+  },
+  "homepage": "https://github.com/nati-br/Projeto_Cypress#readme"
 }
